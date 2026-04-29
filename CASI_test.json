@@ -511,7 +511,6 @@
                     "explanation": "El objetivo fundamental de la seguridad de la información es identificar los riesgos que amenazan los activos y seleccionar las contramedidas (controles) que mitiguen esos riesgos de forma proporcional.",
                     "models": ["examen_CASI"]
                   },
-                     [
                   {
                     "id": "q1",
                     "type": "question_answer",
