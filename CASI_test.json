@@ -7,7 +7,7 @@
   },
    "questions": [
 
-       {
+    {
     "id": "q1",
     "type": "single_choice",
     "question": "Las reglas de oro de los SGSI son:",
@@ -1355,6 +1355,8 @@
     "question": "[ex24_1.pdf] ¿Cuál de las siguientes auditorías es obligatoria? A) La auditoría externa. B) La auditoría de verificación. C) La auditoría de certificación.",
     "explanation": "La auditoría de verificación es la obligatoria en este contexto, porque sirve para comprobar formalmente el cumplimiento exigible del sistema.",
     "correct_answer": "B. La auditoría de verificación."
-  }
+  }   
    ]
 }
+
+
