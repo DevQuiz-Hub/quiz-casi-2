@@ -1,0 +1,2830 @@
+{
+  "settings": {
+    "show_progress": true,
+    "shuffle_options": true,
+    "show_explanation": true,
+    "shuffle_questions": true
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "question": "Las reglas de oro de los SGSI son:",
+      "options": [
+        "La privacidad y el anonimato.",
+        "La autenticación y la autorización.",
+        "La autenticación, la autorización y la auditabilidad."
+      ],
+      "correct_answer": "La autenticación, la autorización y la auditabilidad.",
+      "explanation": "Los Sistemas de Gestión de Seguridad de la Información (SGSI) se basan en asegurar no solo quién accede (autenticación) y a qué (autorización), sino también en mantener un registro de dichas acciones para su verificación posterior (auditabilidad) [1].",
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 1,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single_choice",
+      "question": "Si una persona no autorizada modifica la información disponible en nuestra base de datos, está afectando a:",
+      "options": [
+        "Integridad.",
+        "Disponibilidad.",
+        "Confidencialidad."
+      ],
+      "correct_answer": "Integridad.",
+      "explanation": "La integridad es el principio de seguridad que garantiza que la información se mantiene exacta y completa, protegiéndola frente a alteraciones no autorizadas [1].",
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 2,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "single_choice",
+      "question": "La auditoría de protección de datos personales:",
+      "options": [
+        "Es voluntaria.",
+        "En realidad es un control interno.",
+        "Es obligatoria."
+      ],
+      "correct_answer": "Es obligatoria.",
+      "explanation": "Este tipo de auditoría es un requisito legal normativo para las organizaciones que manejan datos sensibles, lo que la convierte en una actividad de cumplimiento obligatorio y no opcional [2, 3].",
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 3,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "single_choice",
+      "question": "Nmap es un ejemplo:",
+      "options": [
+        "De test de penetración.",
+        "De fingerprinting activo.",
+        "De fingerprinting pasivo."
+      ],
+      "correct_answer": "De fingerprinting activo.",
+      "explanation": "Nmap es una herramienta que interactúa directamente con el sistema objetivo enviando paquetes para identificar puertos y servicios, lo que se clasifica como reconocimiento o fingerprinting activo [4].",
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 4,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "single_choice",
+      "question": "Los tres principios fundamentales de los SGSI son:",
+      "options": [
+        "Confidencialidad, Integridad y Disponibilidad",
+        "Confidencialidad, Privacidad y Autenticación",
+        "Control, Integridad y Duplicación"
+      ],
+      "correct_answer": "Confidencialidad, Integridad y Disponibilidad",
+      "explanation": "Conocida como la tríada de la seguridad (CIA), estos tres pilares son los objetivos centrales para asegurar la información en cualquier sistema de gestión [5, 6].",
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 5,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q6",
+      "type": "single_choice",
+      "question": "¿En qué fase del proceso genérico de una auditoría informática se establece el plan de comunicación?",
+      "options": [
+        "Preparación de la auditoría.",
+        "Realización de la auditoría.",
+        "Emisión y distribución del informe de auditoría."
+      ],
+      "correct_answer": "Preparación de la auditoría.",
+      "explanation": "El plan de comunicación, que define cómo se informará de los hallazgos y el progreso, debe establecerse durante la fase inicial de planificación y preparación [7].",
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 6,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q7",
+      "type": "single_choice",
+      "question": "DAST:",
+      "options": [
+        "Es un estándar SDC.",
+        "Es un marco de herramientas fuzzing.",
+        "Son las siglas inglesas para herramientas de análisis dinámico de aplicaciones."
+      ],
+      "correct_answer": "Son las siglas inglesas para herramientas de análisis dinámico de aplicaciones.",
+      "explanation": "DAST corresponde a Dynamic Application Security Testing, una metodología que analiza aplicaciones en tiempo de ejecución para encontrar vulnerabilidades [8-10].",
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 7,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q8",
+      "type": "single_choice",
+      "question": "El gobierno de las TIC se apoya:",
+      "options": [
+        "En seis principios.",
+        "En cuatro principios.",
+        "En tres principios."
+      ],
+      "correct_answer": "En seis principios.",
+      "explanation": "Según estándares internacionales como la ISO/IEC 38500, el buen gobierno de las TIC se fundamenta en seis principios clave para dirigir y controlar la tecnología [11, 12].",
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 8,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q9",
+      "type": "single_choice",
+      "question": "Un IDS es un control:",
+      "options": [
+        "Preventivo.",
+        "Correctivo.",
+        "Detectivo."
+      ],
+      "correct_answer": "Detectivo.",
+      "explanation": "Un Sistema de Detección de Intrusiones (IDS) tiene como función principal identificar y alertar sobre actividades sospechosas que ya están ocurriendo o han ocurrido, clasificándose como un control detectivo [3, 13].",
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 9,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q10",
+      "type": "single_choice",
+      "question": "¿Cuál de las siguientes afirmaciones es falsa sobre el gobierno TIC?",
+      "options": [
+        "El gobierno TIC opera ex ante.",
+        "La adquisición y gestión de activos TIC es cometido del gobierno TIC.",
+        "El gobierno TIC opera ex post."
+      ],
+      "correct_answer": "El gobierno TIC opera ex post.",
+      "explanation": "El gobierno TIC es proactivo y opera antes de los eventos (ex ante), mientras que la auditoría es la que suele operar después de los hechos (ex post) para verificar el cumplimiento [14].",
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 10,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q11",
+      "type": "single_choice",
+      "question": "La certificación CISA está asociada a:",
+      "options": [
+        "ISACA.",
+        "(ISC)2.",
+        "AENOR."
+      ],
+      "correct_answer": "ISACA.",
+      "explanation": "Certified Information Systems Auditor (CISA) es la certificación líder mundial para profesionales de la auditoría, control y seguridad de sistemas, emitida por ISACA [15].",
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 11,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q12",
+      "type": "single_choice",
+      "question": "En el contexto de un plan de continuidad de negocio, un error en la cadena de continuidad se denomina:",
+      "options": [
+        "Ataque.",
+        "Interrupción.",
+        "Crisis."
+      ],
+      "correct_answer": "Interrupción.",
+      "explanation": "Cualquier suceso que rompa el flujo normal de las operaciones y detenga la cadena de servicios se define técnicamente como una interrupción en el plan de continuidad [16, 17].",
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 12,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q13",
+      "type": "single_choice",
+      "question": "La ingeniería inversa:",
+      "options": [
+        "Es una técnica orientada a recomponer la historia de un sistema.",
+        "Tiene por objeto inferir el código fuente asociado a una cierta aplicación.",
+        "Es una mala praxis de programación."
+      ],
+      "correct_answer": "Tiene por objeto inferir el código fuente asociado a una cierta aplicación.",
+      "explanation": "Consiste en analizar un sistema u objeto para entender su estructura interna y funcionamiento, buscando a menudo recuperar el diseño o código fuente original [18, 19].",
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 13,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q14",
+      "type": "single_choice",
+      "question": "Una de estas características, NO es una característica del aseguramiento de la información:",
+      "options": [
+        "Calidad",
+        "Confidencialidad",
+        "Integridad"
+      ],
+      "correct_answer": "Calidad",
+      "explanation": "El aseguramiento de la información se centra específicamente en la tríada de seguridad (confidencialidad, integridad y disponibilidad); la calidad es un concepto relacionado pero no es una característica intrínseca del modelo de aseguramiento estándar [5].",
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 14,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q15",
+      "type": "single_choice",
+      "question": "El principio de conformidad compete a:",
+      "options": [
+        "El gobierno de negocio.",
+        "El gobierno TIC.",
+        "El gobierno corporativo."
+      ],
+      "correct_answer": "El gobierno TIC.",
+      "explanation": "Dentro del marco de gobierno de las tecnologías, asegurar que los sistemas cumplan con las leyes, normas y políticas internas es responsabilidad directa del gobierno TIC [11, 12, 20].",
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 15,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "ex25_1_q1",
+      "type": "single_choice",
+      "question": "El principio de conformidad compete a:",
+      "options": [
+        "El gobierno de negocio.",
+        "El gobierno TIC.",
+        "El gobierno corporativo."
+      ],
+      "correct_answer": "El gobierno TIC.",
+      "explanation": "Dentro del marco de la norma ISO/IEC 38500, el principio de conformidad establece que el gobierno de las TIC debe asegurar que el uso de la tecnología cumpla con las leyes y regulaciones vigentes, así como con las políticas internas de la organización [1, 2].",
+      "models": [
+        "ex23_1 Modelo B",
+        "ex23_2 Modelo B",
+        "ex25_1 Modelo G"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 16,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "ex25_1_q2",
+      "type": "single_choice",
+      "question": "El gobierno de las TIC se apoya:",
+      "options": [
+        "En seis principios.",
+        "En cuatro principios.",
+        "En tres principios."
+      ],
+      "correct_answer": "En seis principios.",
+      "explanation": "El estándar internacional ISO/IEC 38500 define seis principios fundamentales para el buen gobierno de las TI: Responsabilidad, Estrategia, Adquisición, Rendimiento, Conformidad y Comportamiento Humano [1-3].",
+      "models": [
+        "ex23_1 Modelo B",
+        "ex23_2 Modelo B",
+        "ex25_1 Modelo G"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 17,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "ex25_1_q21",
+      "type": "single_choice",
+      "question": "¿Cuál de las siguientes auditorías es obligatoria?",
+      "options": [
+        "La auditoría externa.",
+        "La auditoría de verificación.",
+        "La auditoría de certificación."
+      ],
+      "correct_answer": "La auditoría externa.",
+      "explanation": "En muchos marcos normativos y legales (como la auditoría de cuentas o auditorías específicas de cumplimiento normativo), la auditoría externa es impuesta por ley o por terceros reguladores, a diferencia de la de certificación que suele ser voluntaria para obtener un sello de calidad [4, 5].",
+      "models": [
+        "ex23_1 Modelo B",
+        "ex23_2 Modelo B",
+        "ex25_1 Modelo G"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 18,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "ex25_1_q22",
+      "type": "single_choice",
+      "question": "Un cortafuegos es un control:",
+      "options": [
+        "Físico.",
+        "Lógico.",
+        "Disuasorio."
+      ],
+      "correct_answer": "Lógico.",
+      "explanation": "Los cortafuegos (firewalls) son mecanismos de seguridad basados en software o hardware configurado mediante reglas de filtrado de tráfico, lo que los clasifica técnicamente como controles lógicos o técnicos [4, 5].",
+      "models": [
+        "ex23_1 Modelo B",
+        "ex23_2 Modelo B",
+        "ex25_1 Modelo G"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 19,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "ex25_1_q23",
+      "type": "single_choice",
+      "question": "Un IDS es un control:",
+      "options": [
+        "Detectivo.",
+        "Preventivo.",
+        "Lógico."
+      ],
+      "correct_answer": "Detectivo.",
+      "explanation": "Un Sistema de Detección de Intrusiones (IDS) tiene como función principal monitorizar eventos en un sistema o red para identificar actividades sospechosas o ataques en curso, emitiendo alertas para su análisis posterior [4-7].",
+      "models": [
+        "ex23_1 Modelo B",
+        "ex23_2 Modelo B",
+        "ex25_1 Modelo G",
+        "ex24_4",
+        "examen"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 20,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "ex25_2_q1",
+      "type": "single_choice",
+      "question": "El principio de ejecución compete a:",
+      "options": [
+        "El gobierno de negocio.",
+        "El gobierno TIC.",
+        "El gobierno corporativo."
+      ],
+      "correct_answer": "El gobierno TIC.",
+      "explanation": "El gobierno de las TIC se encarga de dirigir y controlar el uso actual y futuro de las TI, lo cual incluye supervisar la ejecución de los planes y el rendimiento de los sistemas para asegurar que se alineen con los objetivos estratégicos [8, 9].",
+      "models": [
+        "ex24_4",
+        "ex25_2 Modelo A"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 21,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "ex25_2_q25",
+      "type": "single_choice",
+      "question": "¿Cuál es la función esencial de un sistema IDS?",
+      "options": [
+        "Detección de actividades anormales.",
+        "Prevención automática de intrusiones.",
+        "Verificar un sistema en busca de vulnerabilidades."
+      ],
+      "correct_answer": "Detección de actividades anormales.",
+      "explanation": "A diferencia de un IPS (que previene), la función núcleo de un IDS es la detección y registro de comportamientos que se desvían de los patrones normales o firmas de ataque conocidas [6, 10].",
+      "models": [
+        "ex24_4",
+        "ex25_2 Modelo A"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 22,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "ex25_2_q26",
+      "type": "single_choice",
+      "question": "Con el objeto de asegurar la privacidad e integridad de los datos, las conexiones entre cortafuegos sobre redes públicas deberían usar:",
+      "options": [
+        "Certificados digitales.",
+        "VPNs y cifrado.",
+        "Subredes blindadas."
+      ],
+      "correct_answer": "VPNs y cifrado.",
+      "explanation": "Para proteger la información que viaja por una red insegura (como Internet) entre dos puntos de confianza (cortafuegos), es fundamental establecer túneles VPN que cifren el contenido para garantizar su confidencialidad e integridad [6, 10].",
+      "models": [
+        "ex24_4",
+        "ex25_2 Modelo A"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 23,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "ex25_2_q27",
+      "type": "single_choice",
+      "question": "¿En qué capa del modelo OSI operan los cortafuegos de filtrado de paquetes?",
+      "options": [
+        "Capa de Aplicación (7).",
+        "Capa de Red (3).",
+        "Capa de Enlace de datos (2)."
+      ],
+      "correct_answer": "Capa de Red (3).",
+      "explanation": "Los firewalls de filtrado de paquetes trabajan analizando las cabeceras de los paquetes IP (direcciones de origen/destino, protocolo), funciones que corresponden a la capa 3 (Red) del modelo OSI [6, 10].",
+      "models": [
+        "ex24_4",
+        "ex25_2 Modelo A"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 24,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "ex25_q1",
+      "type": "single_choice",
+      "question": "¿Cuál de las siguientes afirmaciones es falsa sobre el gobierno TIC?",
+      "options": [
+        "El gobierno TIC opera ex ante.",
+        "La adquisición y gestión de activos TIC es cometido del gobierno TIC.",
+        "El gobierno TIC opera ex post."
+      ],
+      "correct_answer": "El gobierno TIC opera ex post.",
+      "explanation": "El gobierno TIC es proactivo y orientador (ex ante), mientras que la auditoría es la función que opera típicamente ex post para verificar el cumplimiento de lo establecido [11].",
+      "models": [
+        "ex25 Modelo C"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 25,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "ex22_1_q1",
+      "type": "single_choice",
+      "question": "¿Cuál de los siguientes principios de gobernanza TIC se encarga de satisfacer la legislación vigente?",
+      "options": [
+        "Estrategia.",
+        "Conformidad.",
+        "Responsabilidad."
+      ],
+      "correct_answer": "Conformidad.",
+      "explanation": "El principio de conformidad se centra específicamente en asegurar que el sistema de TI cumple con las obligaciones legales y normativas aplicables [12].",
+      "models": [
+        "ex22_1"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 26,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "exam_q25",
+      "type": "single_choice",
+      "question": "¿Cuál de los siguientes métodos de backup es el más adecuado para un almacenamiento externo, fuera el emplazamiento habitual de nuestro negocio?",
+      "options": [
+        "Backup total.",
+        "Backup diferencial.",
+        "Backup incremental."
+      ],
+      "correct_answer": "Backup total.",
+      "explanation": "El backup total es el más seguro para almacenamiento off-site (fuera del emplazamiento) porque contiene toda la información necesaria para una recuperación completa de forma independiente, sin depender de otros juegos de cintas o archivos intermedios [13].",
+      "models": [
+        "examen"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 27,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "exam_q30",
+      "type": "single_choice",
+      "question": "Según el NIST el plan de continuidad de negocio consta de:",
+      "options": [
+        "4 fases.",
+        "3 fases.",
+        "2 fases."
+      ],
+      "correct_answer": "4 fases.",
+      "explanation": "El marco del NIST para la planificación de contingencias y continuidad de negocio típicamente se estructura en cuatro fases principales: iniciación, análisis de impacto, desarrollo del plan y mantenimiento/ejecución [7].",
+      "models": [
+        "examen"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 28,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "casi_q26",
+      "type": "single_choice",
+      "question": "Las pruebas informáticas:",
+      "options": [
+        "No tienen fuerza probatoria en sede judicial.",
+        "Tienen fuerza probatoria si y sólo si existe evidencia directa y se respeta la cadena de custodia.",
+        "Sólo tienen valor cuando se investigan delitos de evasión fiscal."
+      ],
+      "correct_answer": "Tienen fuerza probatoria si y sólo si existe evidencia directa y se respeta la cadena de custodia.",
+      "explanation": "Para que una evidencia digital sea admitida en un proceso judicial, debe garantizarse su autenticidad e integridad a través de un registro riguroso de quién la manejó y cómo, conocido como cadena de custodia [14].",
+      "models": [
+        "examen_CASI"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 29,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "casi_q27",
+      "type": "single_choice",
+      "question": "Un programa de seguridad exige un equilibrio entre:",
+      "options": [
+        "Riesgos y contramedidas.",
+        "Coste y beneficio.",
+        "Usuarios y administradores."
+      ],
+      "correct_answer": "Riesgos y contramedidas.",
+      "explanation": "La gestión de seguridad informática se basa en identificar los riesgos a los que están expuestos los activos y aplicar las contramedidas o controles adecuados cuya eficacia y coste estén equilibrados con la magnitud del riesgo [14].",
+      "models": [
+        "examen_CASI"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 30,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "ex22_1_q28",
+      "type": "single_choice",
+      "question": "¿Qué método de backup requiere utilizar el mayor número de cintas para una restauración completa si se usa una cinta distinta cada noche con rotación de cinco días?",
+      "options": [
+        "Backup total.",
+        "Backup diferencial.",
+        "Backup incremental."
+      ],
+      "correct_answer": "Backup incremental.",
+      "explanation": "El backup incremental guarda solo los cambios realizados desde la última copia (ya sea total o incremental). Para una restauración completa, se necesita la última copia total más todas las copias incrementales realizadas hasta la fecha del fallo, lo que implica manejar un mayor número de soportes físicos.",
+      "models": [
+        "ex22_1",
+        "ex23_3",
+        "ex25_4"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 31,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "ex22_1_q29",
+      "type": "single_choice",
+      "question": "¿Cuál de los siguientes métodos de backup es el más adecuado para un almacenamiento externo, fuera del emplazamiento habitual de nuestro negocio?",
+      "options": [
+        "Backup total.",
+        "Backup diferencial.",
+        "Backup incremental."
+      ],
+      "correct_answer": "Backup total.",
+      "explanation": "Para el almacenamiento off-site, el backup total es el más indicado porque es autónomo; contiene toda la información necesaria para recuperar el sistema sin depender de otras cintas que podrían estar en ubicaciones distintas.",
+      "models": [
+        "ex22_1",
+        "ex23_3",
+        "ex25_4",
+        "examen"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 32,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "tema7_q9",
+      "type": "single_choice",
+      "question": "Nmap es un ejemplo:",
+      "options": [
+        "De test de penetración.",
+        "De fingerprinting activo.",
+        "De fingerprinting pasivo."
+      ],
+      "correct_answer": "De fingerprinting activo.",
+      "explanation": "Nmap interactúa activamente con el objetivo enviando paquetes diseñados para provocar una respuesta del sistema y así determinar puertos abiertos, servicios y versiones de sistemas operativos.",
+      "models": [
+        "Tema 7"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 33,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "ex23_4_q1",
+      "type": "single_choice",
+      "question": "¿Qué actor no forma parte de la gobernanza TIC de una empresa?",
+      "options": [
+        "El usuario final.",
+        "El CIO.",
+        "El auditor."
+      ],
+      "correct_answer": "El auditor.",
+      "explanation": "El auditor es una figura de control externa o interna que evalúa el cumplimiento y la eficacia, pero no forma parte de los órganos de gobierno que dirigen y toman decisiones estratégicas sobre las TIC (como el CIO).",
+      "models": [
+        "ex23_4"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 34,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "ex23_4_q2",
+      "type": "single_choice",
+      "question": "La certificación CISA está asociada a:",
+      "options": [
+        "ISACA.",
+        "(ISC)2.",
+        "AENOR."
+      ],
+      "correct_answer": "ISACA.",
+      "explanation": "CISA (Certified Information Systems Auditor) es la certificación global de referencia para auditores de sistemas, gestionada y emitida por la asociación internacional ISACA.",
+      "models": [
+        "ex23_4",
+        "Tema 12"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 35,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "ex23_3_q35",
+      "type": "single_choice",
+      "question": "El desarrollo de un sistema de información consta de una serie de fases según el SDLC estándar:",
+      "options": [
+        "FASE 1. Iniciación; FASE 2. Desarrollo y adquisición; FASE 3. Implementación; FASE 4. Operación y mantenimiento; y FASE 5. Terminación.",
+        "FASE 1. Iniciación; FASE 2. Desarrollo y adquisición; FASE 3. Implementación; y FASE 4. Operación y mantenimiento.",
+        "FASE 1. Iniciación; FASE 2. Implementación; FASE 3. Operación y mantenimiento; y FASE 4. Terminación."
+      ],
+      "correct_answer": "FASE 1. Iniciación; FASE 2. Desarrollo y adquisición; FASE 3. Implementación; FASE 4. Operación y mantenimiento; y FASE 5. Terminación.",
+      "explanation": "El ciclo de vida de desarrollo de sistemas (SDLC) completo incluye desde la concepción inicial hasta la fase final de retirada o terminación del sistema cuando deja de ser útil.",
+      "models": [
+        "ex23_3",
+        "ex23_4",
+        "ex25_2"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 36,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "ex24_4_q13",
+      "type": "single_choice",
+      "question": "La ingeniería inversa:",
+      "options": [
+        "Es una técnica orientada a recomponer la historia de un sistema mediante logs.",
+        "Tiene por objeto inferir el código fuente asociado a una cierta aplicación.",
+        "Es una mala praxis de programación."
+      ],
+      "correct_answer": "Tiene por objeto inferir el código fuente asociado a una cierta aplicación.",
+      "explanation": "La ingeniería inversa se utiliza para analizar un binario o ejecutable con el fin de comprender su funcionamiento interno y, en lo posible, reconstruir el código fuente original o su lógica de diseño.",
+      "models": [
+        "ex24_4",
+        "ex25_2"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 37,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "exam_q30_nist",
+      "type": "single_choice",
+      "question": "Según el NIST el plan de continuidad de negocio consta de:",
+      "options": [
+        "4 fases.",
+        "3 fases.",
+        "2 fases."
+      ],
+      "correct_answer": "4 fases.",
+      "explanation": "El NIST estructura la planificación de contingencias en cuatro fases críticas: fase de activación/notificación, fase de recuperación, fase de reconstitución y mantenimiento del plan.",
+      "models": [
+        "examen"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 38,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "casi_q26_evidencia",
+      "type": "single_choice",
+      "question": "Las pruebas informáticas:",
+      "options": [
+        "No tienen fuerza probatoria en sede judicial.",
+        "Tienen fuerza probatoria si existe evidencia directa y se respeta la cadena de custodia.",
+        "Sólo tienen valor en delitos de evasión fiscal."
+      ],
+      "correct_answer": "Tienen fuerza probatoria si existe evidencia directa y se respeta la cadena de custodia.",
+      "explanation": "Para que un elemento digital sea admitido como prueba, es imperativo demostrar que no ha sido alterado, lo cual se logra mediante el mantenimiento estricto de la cadena de custodia desde su recolección.",
+      "models": [
+        "examen_CASI"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 39,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "casi_q27_equilibrio",
+      "type": "single_choice",
+      "question": "Un programa de seguridad exige un equilibrio entre:",
+      "options": [
+        "Riesgos y contramedidas.",
+        "Coste y beneficio.",
+        "Usuarios y administradores."
+      ],
+      "correct_answer": "Riesgos y contramedidas.",
+      "explanation": "El objetivo fundamental de la seguridad de la información es identificar los riesgos que amenazan los activos y seleccionar las contramedidas (controles) que mitiguen esos riesgos de forma proporcional.",
+      "models": [
+        "examen_CASI"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 40,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q1_2",
+      "type": "single_choice",
+      "question": "El principio de conformidad compete a:",
+      "explanation": "El principio de conformidad pertenece al gobierno TIC porque vela por el cumplimiento legal, regulatorio y normativo.",
+      "correct_answer": "El gobierno TIC.",
+      "options": [
+        "El gobierno de negocio.",
+        "El gobierno TIC.",
+        "El gobierno corporativo."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 41,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q2_2",
+      "type": "single_choice",
+      "question": "El gobierno de las TIC se apoya:",
+      "explanation": "La gobernanza TIC se apoya en seis principios, siguiendo la referencia de ISO/IEC 38500.",
+      "correct_answer": "En seis principios.",
+      "options": [
+        "En seis principios.",
+        "En cuatro principios.",
+        "En tres principios."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 42,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q3_2",
+      "type": "single_choice",
+      "question": "¿Cuál de los siguientes principios de gobernanza TIC se encarga de satisfacer la legislación vigente?",
+      "explanation": "El principio de conformidad pertenece al gobierno TIC porque vela por el cumplimiento legal, regulatorio y normativo.",
+      "correct_answer": "Conformidad.",
+      "options": [
+        "Estrategia.",
+        "Conformidad.",
+        "Responsabilidad."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 43,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q4_2",
+      "type": "single_choice",
+      "question": "El análisis forense:",
+      "explanation": "El análisis forense se realiza tras un incidente o ante indicios concretos, con finalidad de reconstrucción y preservación de evidencias.",
+      "correct_answer": "Se efectúa tras la ocurrencia de algún tipo de evento o por la detección de algún indicio de actividad anormal en un momento concreto y específico.",
+      "options": [
+        "Se efectúa tras la ocurrencia de algún tipo de evento o por la detección de algún indicio de actividad anormal en un momento concreto y específico.",
+        "Se emplea en la monitorización continua de los servicios de seguridad y de los controles internos de una organización.",
+        "Trata de detectar vulnerabilidades que pudieran ser explotadas por un intruso."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 44,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q5_2",
+      "type": "single_choice",
+      "question": "La auditoria informática:",
+      "explanation": "La auditoría informática evalúa si las medidas y controles implantados son adecuados y conformes a normas, marcos y requisitos.",
+      "correct_answer": "Su objetivo es validar medidas de seguridad adoptadas en correspondencia con marcos legales y normativos, así como con guías de recomendaciones y estándares de certificación.",
+      "options": [
+        "Está basada en el criterio de Daubert.",
+        "Tiene carácter y objetivo probatorio.",
+        "Su objetivo es validar medidas de seguridad adoptadas en correspondencia con marcos legales y normativos, así como con guías de recomendaciones y estándares de certificación."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 45,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q6_2",
+      "type": "single_choice",
+      "question": "Las pruebas informáticas:",
+      "explanation": "La prueba informática puede tener valor probatorio, pero exige obtención válida, cadena de custodia y respeto de garantías para que sea admisible y fiable.",
+      "correct_answer": "Tienen fuerza probatoria, y solo si existe evidencia directa y se respeta la cadena de custodia.",
+      "options": [
+        "No tienen fuerza probatoria en sede judicial.",
+        "Tienen fuerza probatoria, y solo si existe evidencia directa y se respeta la cadena de custodia.",
+        "Solo tienen valor cuando se investigan delitos de evasión fiscal."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 46,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q7_2",
+      "type": "single_choice",
+      "question": "El plan de recuperación ante desastres debe...",
+      "explanation": "Un PRD debe prever mecanismos de respaldo y alternativas como sitios fríos, templados o calientes para asegurar la recuperación.",
+      "correct_answer": "incluir mecanismos de respaldo como acuerdos con otros organismos, contratación de servicios de arranque en frío, en templado o en caliente o bien se puede optar por incluir redundancias en las transacciones.",
+      "options": [
+        "incluir mecanismos de respaldo como acuerdos con otros organismos, contratación de servicios de arranque en frío, en templado o en caliente o bien se puede optar por incluir redundancias en las transacciones.",
+        "contar con acuerdos con otras empresas para hacer frente a desastres de larga duración.",
+        "contar con planes de recuperación ante desastres redundantes como salvaguarda frente a eventualidades."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 47,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q8_2",
+      "type": "single_choice",
+      "question": "El equipo involucrado en la gestión de un plan de continuidad de negocio:",
+      "explanation": "La continuidad de negocio requiere un equipo multidisciplinar con dirección, áreas funcionales y equipos de desastre y emergencia.",
+      "correct_answer": "Incluye al gestor senior, a representantes de todas las unidades funcionales, al equipo de gestión de desastres y al equipo de respuesta ante emergencias.",
+      "options": [
+        "Solo incluye a miembros del comité ejecutivo de la empresa.",
+        "Solo incluye a miembros del departamento TIC.",
+        "Incluye al gestor senior, a representantes de todas las unidades funcionales, al equipo de gestión de desastres y al equipo de respuesta ante emergencias."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 48,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q9_2",
+      "type": "single_choice",
+      "question": "El análisis de riesgos:",
+      "explanation": "El análisis de riesgos identifica activos críticos, amenazas y necesidades de salvaguarda con ayuda de los propietarios de la información y de los activos.",
+      "correct_answer": "Permite determinar el nivel crítico de activos contando con los propietarios de los mismos, lo que permite ponderar si es preciso incorporar salvaguardas específicas que garanticen una rápida recuperación tras una interrupción de servicio.",
+      "options": [
+        "Debe emplearse para establecer si es procedente un plan de continuidad de negocios: si apenas hay riesgos no es necesario tal tipo de planificación.",
+        "Es competencia exclusiva del gestor senior que dirige el diseño y gestión del plan de continuidad de negocio.",
+        "Permite determinar el nivel crítico de activos contando con los propietarios de los mismos, lo que permite ponderar si es preciso incorporar salvaguardas específicas que garanticen una rápida recuperación tras una interrupción de servicio."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 49,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q10_2",
+      "type": "single_choice",
+      "question": "Dentro de las metodologías de auditoría informática se distinguen:",
+      "explanation": "La clasificación habitual distingue metodologías ligadas a controles generales y metodologías de auditoría interna; fuzzing, SAST y DAST son técnicas, no fases metodológicas generales.",
+      "correct_answer": "Dos tipos de metodologías: metodologías relativas a controles generales y metodologías establecidas por los auditores internos.",
+      "options": [
+        "10 fases distintas.",
+        "Tres componentes: la etapa fuzzing, el paso SAST y la fase DAST.",
+        "Dos tipos de metodologías: metodologías relativas a controles generales y metodologías establecidas por los auditores internos."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 50,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q11_2",
+      "type": "single_choice",
+      "question": "De acuerdo con la definición de evidencia en el ámbito legal, podemos distinguir dos tipos de evidencias:",
+      "explanation": "En el ámbito legal se suele distinguir entre evidencia directa y evidencia indirecta o circunstancial.",
+      "correct_answer": "Directas (evidencias probatorias) y Indirectas (evidencias circunstanciales)",
+      "options": [
+        "Directas (evidencias probatorias) y Documentales (transacciones, recibos, facturas, ficheros log, etc.)",
+        "Indirectas (evidencias circunstanciales) y Documentales (transacciones, recibos, facturas, ficheros log, etc.)",
+        "Directas (evidencias probatorias) y Indirectas (evidencias circunstanciales)"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 51,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q12_2",
+      "type": "single_choice",
+      "question": "El análisis cuantitativo de riesgos:",
+      "explanation": "El análisis cuantitativo exige más datos, estimaciones económicas y modelización, por lo que suele resultar más costoso que el cualitativo.",
+      "correct_answer": "Es más caro que el análisis cualitativo.",
+      "options": [
+        "Es más caro que el análisis cualitativo.",
+        "Requiere un alto grado de intuición por parte del analista.",
+        "Debe realizarse obligatoriamente de modo manual."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 52,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q13_2",
+      "type": "single_choice",
+      "question": "El ataque Cross site request forgery:",
+      "explanation": "El CSRF explota la confianza en una sesión autenticada; por eso se asocia a una gestión deficiente de sesión y a la falta de defensas como tokens anti-CSRF.",
+      "correct_answer": "Se produce porque no se realiza una correcta gestión de sesiones de usuario.",
+      "options": [
+        "Es un ataque por denegación de servicio.",
+        "Es una variante del XSS reflejado.",
+        "Se produce porque no se realiza una correcta gestión de sesiones de usuario."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 53,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q14_2",
+      "type": "single_choice",
+      "question": "¿Qué modalidad de XSS implica una modificación del código fuente del servidor web?",
+      "explanation": "El XSS persistente almacena el payload en el servidor o en recursos servidos por él, de modo que modifica el contenido que reciben otros usuarios.",
+      "correct_answer": "XSS persistente.",
+      "options": [
+        "XSS persistente.",
+        "XSS reflejado.",
+        "XSS consistente."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 54,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q15_2",
+      "type": "single_choice",
+      "question": "La enumeración...",
+      "explanation": "La enumeración de puertos y servicios permite conocer superficie de exposición y preparar el análisis de vulnerabilidades.",
+      "correct_answer": "de puertos abiertos e identificación de servicios asociados a los mismos, es pieza clave en el análisis de vulnerabilidades.",
+      "options": [
+        "de vulnerabilidades, es el paso previo a todo análisis de seguridad.",
+        "de puertos abiertos e identificación de servicios asociados a los mismos, es pieza clave en el análisis de vulnerabilidades.",
+        "es una metodología propia de la contabilidad, que nada tiene que ver con la seguridad informática y su auditoría."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 55,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q16",
+      "type": "single_choice",
+      "question": "El análisis forense debe aprovecharse de:",
+      "explanation": "La investigación forense debe alimentarse de los resultados de controles detectivos, como alertas, logs e IDS.",
+      "correct_answer": "Los resultados derivados de la aplicación de controles detectivos.",
+      "options": [
+        "Las políticas de seguridad y las recomendaciones que rigen los controles preventivos y disuasorios.",
+        "Las mejoras derivadas de la aplicación de controles correctivos.",
+        "Los resultados derivados de la aplicación de controles detectivos."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 56,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q17",
+      "type": "single_choice",
+      "question": "¿Cuál de las siguientes afirmaciones sobre la auditoría de seguridad es falsa?",
+      "explanation": "La auditoría de seguridad no certifica por sí sola la robustez técnica real de un SGSI; evalúa sobre todo cumplimiento, adecuación de controles y situación del sistema.",
+      "correct_answer": "Las auditorías de seguridad informan positivamente sobre la robustez de un SGSI.",
+      "options": [
+        "Las auditorías de seguridad informan positivamente sobre la robustez de un SGSI.",
+        "Las auditorías de seguridad informan positivamente sobre el cumplimiento de estándares, normativas y guías de recomendación de seguridad de la información.",
+        "El desarrollo de una auditoría de seguridad es mucho más complejo que la realización de un análisis de vulnerabilidades."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 57,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q18",
+      "type": "single_choice",
+      "question": "La auditoría externa:",
+      "explanation": "La auditoría externa no es continua; se realiza de manera periódica, normalmente con una cadencia planificada anual.",
+      "correct_answer": "Se efectúa de modo periódico, normalmente una vez al año.",
+      "options": [
+        "Se lleva a cabo de modo continuo.",
+        "Solo tiene implicaciones a efectos de responsabilidad técnica.",
+        "Se efectúa de modo periódico, normalmente una vez al año."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 58,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q19",
+      "type": "single_choice",
+      "question": "El control interno:",
+      "explanation": "El control interno es continuo y forma parte de la operativa habitual de supervisión y mejora.",
+      "correct_answer": "Se lleva a cabo de modo continuo.",
+      "options": [
+        "Se lleva a cabo de modo continuo.",
+        "Se efectúa una vez al año.",
+        "Entra en juego solo después de una incidencia."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 59,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q20",
+      "type": "single_choice",
+      "question": "Un cortafuegos es un control:",
+      "explanation": "El cortafuegos es un control lógico porque filtra tráfico y aplica reglas de acceso en sistemas y redes.",
+      "correct_answer": "Lógico.",
+      "options": [
+        "Físico.",
+        "Lógico.",
+        "Disuasorio."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 60,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q21",
+      "type": "single_choice",
+      "question": "Un IDS es un control:",
+      "explanation": "Un IDS es un control detectivo: su misión principal es alertar sobre actividad sospechosa o intrusiones.",
+      "correct_answer": "Detectivo.",
+      "options": [
+        "Detectivo.",
+        "Preventivo.",
+        "Lógico."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 61,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q22",
+      "type": "single_choice",
+      "question": "Con el objeto de asegurar la privacidad e integridad de los datos, las conexiones entre cortafuegos sobre redes públicas deberían usar:",
+      "explanation": "En redes públicas, la forma adecuada de preservar privacidad e integridad entre cortafuegos es usar VPN y cifrado.",
+      "correct_answer": "VPNs y cifrado.",
+      "options": [
+        "Certificados digitales.",
+        "VPNs y cifrado.",
+        "Subredes blindadas."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 62,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q23",
+      "type": "single_choice",
+      "question": "¿En qué capa del modelo OSI operan los cortafuegos de filtrado de paquetes?",
+      "explanation": "El filtrado de paquetes opera principalmente en la capa de red del modelo OSI.",
+      "correct_answer": "Capa de red.",
+      "options": [
+        "Capa de aplicación.",
+        "Capa de sesión.",
+        "Capa de red."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 63,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q24",
+      "type": "single_choice",
+      "question": "La diferencia entre un control de acceso basado en reglas y un control de acceso basado en roles es:",
+      "explanation": "El control basado en reglas asigna condiciones y parámetros de acceso; el basado en roles concede permisos según la función o cargo desempeñado.",
+      "correct_answer": "Los controles basados en reglas asignan parámetros de acceso a las cuentas de usuario, mientras que los controles basados en roles se basan en objetivos de control de acceso en función de la labor desempeñada por un cierto cargo o usuario.",
+      "options": [
+        "El control basado en reglas se aplica a grupos, mientras que el control basado en roles se aplica a cada usuario de forma individual.",
+        "El control de acceso basado en reglas es necesario para pequeñas empresas mientras que el control basado en roles es preciso para grandes empresas.",
+        "Los controles basados en reglas asignan parámetros de acceso a las cuentas de usuario, mientras que los controles basados en roles se basan en objetivos de control de acceso en función de la labor desempeñada por un cierto cargo o usuario."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 64,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q25",
+      "type": "single_choice",
+      "question": "Solo hay riesgo...",
+      "explanation": "Para que exista riesgo deben concurrir activo, amenaza y vulnerabilidad explotable.",
+      "correct_answer": "si existe un activo, una vulnerabilidad y una amenaza.",
+      "options": [
+        "si existe un activo y una amenaza, aunque no haya una vulnerabilidad.",
+        "si existe un activo, una vulnerabilidad y una amenaza.",
+        "si existe un activo y una vulnerabilidad, aunque no haya una amenaza."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 65,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q26",
+      "type": "single_choice",
+      "question": "¿Quién es el responsable de determinar el nivel de clasificación de la información?",
+      "explanation": "El nivel de clasificación debe decidirlo el propietario de la información, porque es quien conoce su valor y sensibilidad.",
+      "correct_answer": "Los propietarios de la información.",
+      "options": [
+        "Los usuarios.",
+        "La dirección de empresa.",
+        "Los propietarios de la información."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 66,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q27",
+      "type": "single_choice",
+      "question": "Un programa de seguridad exige un equilibrio entre:",
+      "explanation": "Un programa de seguridad debe equilibrar riesgos existentes y contramedidas implantadas para que la protección sea proporcionada.",
+      "correct_answer": "Riesgos y contramedidas.",
+      "options": [
+        "Controles de acceso y controles físicos.",
+        "Riesgos y contramedidas.",
+        "Roles técnicos y no técnicos."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 67,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q28",
+      "type": "single_choice",
+      "question": "¿Cuál es el principal objetivo perseguido al crear un esquema de clasificación de la información?",
+      "explanation": "La clasificación de la información sirve para estructurar la protección en función de la sensibilidad e importancia de cada información.",
+      "correct_answer": "Formalizar y estratificar el proceso de asegurar la información en base a la asignación de etiquetas de importancia y sensibilidad.",
+      "options": [
+        "Controlar el acceso de usuarios autorizados a los recursos.",
+        "Formalizar y estratificar el proceso de asegurar la información en base a la asignación de etiquetas de importancia y sensibilidad.",
+        "Establecer una vía para futuras auditorías y depuración de responsabilidades."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 68,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q29",
+      "type": "single_choice",
+      "question": "El desarrollo de un sistema de información consta de una serie de fases:",
+      "explanation": "El ciclo de vida típico del sistema incluye iniciación, desarrollo/adquisición, implementación, operación/mantenimiento y terminación.",
+      "correct_answer": "FASE 1. Fase de iniciación; FASE 2. Fase de desarrollo y de adquisición; FASE 3. Fase de implementación; FASE 4. Fase de operación y mantenimiento; y FASE 5. Terminación.",
+      "options": [
+        "FASE 1. Fase de iniciación; FASE 2. Fase de desarrollo y de adquisición; FASE 3. Fase de implementación; FASE 4. Fase de operación y mantenimiento; y FASE 5. Terminación.",
+        "FASE 1. Fase de iniciación; FASE 2. Fase de desarrollo y de adquisición; FASE 3. Fase de implementación; y FASE 4. Fase de operación y mantenimiento.",
+        "FASE 1. Fase de iniciación; FASE 2. Fase de implementación; FASE 3. Fase de operación y mantenimiento; y FASE 4. Terminación."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 69,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q30",
+      "type": "single_choice",
+      "question": "Teniendo en cuenta el flujo normal de información entre un origen y un destino, se pueden distinguir cuatro tipos de ataques:",
+      "explanation": "La clasificación clásica de ataques sobre el flujo de información es interceptación, interrupción, modificación y generación/fabricación.",
+      "correct_answer": "Ataques por interceptación del flujo de información, Ataques por interrupción del flujo de información, Ataques por modificación del flujo de información, y Ataques por generación e inyección de información.",
+      "options": [
+        "Ataques por interceptación del flujo de información, Ataques por interrupción del flujo de información, Ataques por desautorización del flujo de información, y Ataques por generación e inyección de información.",
+        "Ataques por interceptación del flujo de información, Ataques por interrupción del flujo de información, Ataques por modificación del flujo de información, y Ataques por desautenticación del acceso a la información.",
+        "Ataques por interceptación del flujo de información, Ataques por interrupción del flujo de información, Ataques por modificación del flujo de información, y Ataques por generación e inyección de información."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 70,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q31",
+      "type": "single_choice",
+      "question": "Se puede definir funcionalmente la Auditoría informática como:",
+      "explanation": "Funcionalmente, la auditoría informática es el conjunto de procedimientos y técnicas para evaluar y controlar un sistema de información conforme a normas y objetivos.",
+      "correct_answer": "El conjunto de procedimientos y técnicas para evaluar y controlar un sistema de información, con el fin de constatar si sus actividades son correctas y de acuerdo a las normativas informáticas y generales prefijadas en la organización.",
+      "options": [
+        "El conjunto de procedimientos y técnicas para gestionar de forma sistemática los activos de información de una organización.",
+        "El conjunto de procedimientos y técnicas para evaluar y controlar un sistema de información, con el fin de constatar si sus actividades son correctas y de acuerdo a las normativas informáticas y generales prefijadas en la organización.",
+        "El conjunto de procedimientos y técnicas para crear, implementar, operar, supervisar, revisar, mantener y mejorar la seguridad de la información."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 71,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q32",
+      "type": "single_choice",
+      "question": "Los ficheros de log son fundamentales para:",
+      "explanation": "Los logs son esenciales para auditoría, trazabilidad y reconstrucción de eventos.",
+      "correct_answer": "Realizar auditorías.",
+      "options": [
+        "Garantizar la integridad de los activos de información.",
+        "Realizar auditorías.",
+        "Implementar sistemas de autorización."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 72,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q33",
+      "type": "single_choice",
+      "question": "Las reglas de oro de los SGSI son:",
+      "explanation": "Las reglas de oro que suelen destacarse son autenticación, autorización y auditabilidad.",
+      "correct_answer": "La autenticación, la autorización y la auditabilidad.",
+      "options": [
+        "La autenticación, la autorización y la auditabilidad.",
+        "La privacidad y el anonimato.",
+        "La autenticación y la autorización."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 73,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q34",
+      "type": "single_choice",
+      "question": "Un ataque por interceptación afecta a:",
+      "explanation": "La interceptación compromete la confidencialidad, porque supone acceso no autorizado a la información.",
+      "correct_answer": "La confidencialidad de los datos.",
+      "options": [
+        "La disponibilidad de los datos.",
+        "La confidencialidad de los datos.",
+        "La autenticación de los datos."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 74,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q35",
+      "type": "single_choice",
+      "question": "La auditoría informática es necesaria para:",
+      "explanation": "La auditoría informática ayuda a detectar problemas, valorar controles y recomendar mejoras para evitar incidentes y reducir impacto.",
+      "correct_answer": "Detectar posibles problemas de seguridad, aconsejar cómo solucionarlos y evitar posibles ataques o errores de seguridad que menoscaben la actividad de nuestra empresa y su prestigio.",
+      "options": [
+        "Conseguir las certificaciones de calidad de nuestro sistema de información.",
+        "Detectar posibles problemas de seguridad, aconsejar cómo solucionarlos y evitar posibles ataques o errores de seguridad que menoscaben la actividad de nuestra empresa y su prestigio.",
+        "Asegurar que los costes de producción no exceden a los beneficios que reporta nuestro negocio."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 75,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q36",
+      "type": "single_choice",
+      "question": "¿Qué es un activo de información?",
+      "explanation": "Un activo de información es cualquier elemento valioso para la organización y necesario para su actividad: datos, sistemas, servicios, soportes o procesos.",
+      "correct_answer": "Todo aquel elemento que posee un valor para nuestra empresa y que es necesario para poder llevar a cabo su actividad de negocio.",
+      "options": [
+        "El conjunto de documentos de una empresa.",
+        "El conjunto de documentos y equipos de una empresa.",
+        "Todo aquel elemento que posee un valor para nuestra empresa y que es necesario para poder llevar a cabo su actividad de negocio."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 76,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q37",
+      "type": "single_choice",
+      "question": "Los tres principios fundamentales de los SGSI son:",
+      "explanation": "Los SGSI se apoyan en la tríada CIA: confidencialidad, integridad y disponibilidad. Es la base sobre la que se definen controles y riesgos.",
+      "correct_answer": "Confidencialidad, Integridad y Disponibilidad",
+      "options": [
+        "Confidencialidad, Integridad y Disponibilidad",
+        "Confidencialidad, Privacidad y Autenticación",
+        "Control, Integridad y Duplicación"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 77,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q38",
+      "type": "single_choice",
+      "question": "¿Cuál de los siguientes puntos NO forma parte del desarrollo de una política de seguridad de alto nivel?",
+      "explanation": "Una política de alto nivel fija directrices, roles y objetivos; no baja al detalle técnico de elegir un cortafuegos concreto.",
+      "correct_answer": "Identificar el tipo de cortafuegos a emplear en la seguridad perimetral",
+      "options": [
+        "Identificar los recursos clave de negocio",
+        "Identificar el tipo de cortafuegos a emplear en la seguridad perimetral",
+        "Definir roles en la organización"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 78,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q39",
+      "type": "single_choice",
+      "question": "En el intercambio de información entre dos usuarios, cifrar el hash de un mensaje con una clave simétrica equivale a:",
+      "explanation": "Cifrar el hash con una clave simétrica equivale a un MAC: permite verificar integridad y autenticidad compartiendo una clave secreta.",
+      "correct_answer": "Crear un código de autenticación de mensaje dependiente de clave",
+      "options": [
+        "Crear una firma digital",
+        "Proteger la confidencialidad del mensaje",
+        "Crear un código de autenticación de mensaje dependiente de clave"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 79,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q40",
+      "type": "single_choice",
+      "question": "¿Cuál es la principal obligación de un auditor con respecto al ciclo de vida de un sistema?",
+      "explanation": "El auditor debe comprobar que el ciclo de vida del sistema está alineado con los objetivos de la organización y con decisiones válidamente aprobadas por la dirección.",
+      "correct_answer": "Verificar que se cumplen los objetivos de la organización y que cada decisión está avalada por los órganos de dirección",
+      "options": [
+        "Verificar que se cumplen los objetivos de la organización y que cada decisión está avalada por los órganos de dirección",
+        "Verificar que todos los contratos de negocio están debidamente firmados y ejecutados por los órganos de dirección",
+        "Verificar que los controles internos son validados antes de su implementación por una tercera parte"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 80,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q41",
+      "type": "single_choice",
+      "question": "¿Cuál de los siguientes principios de gobernanza TIC se encarga de satisfacer la legislación vigente?",
+      "explanation": "El principio de conformidad pertenece al gobierno TIC porque vela por el cumplimiento legal, regulatorio y normativo.",
+      "correct_answer": "Conformidad.",
+      "options": [
+        "Estrategia.",
+        "Conformidad.",
+        "Responsabilidad."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 81,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q42",
+      "type": "single_choice",
+      "question": "A la gobernanza corporativa compete:",
+      "explanation": "La gobernanza corporativa aborda la separación entre propiedad y control, cuestión clásica del gobierno corporativo.",
+      "correct_answer": "La separación de la propiedad y el control.",
+      "options": [
+        "La separación de la propiedad y el control.",
+        "La dirección y control del negocio.",
+        "La dirección y control TIC."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 82,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q43",
+      "type": "single_choice",
+      "question": "¿Qué norma ISO está más relacionada con el gobierno de las TIC?",
+      "explanation": "ISO/IEC 38500 es la norma específicamente orientada al gobierno corporativo de las tecnologías de la información.",
+      "correct_answer": "ISO 38500.",
+      "options": [
+        "ISO 27001.",
+        "ISO 20200.",
+        "ISO 38500."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 83,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q44",
+      "type": "single_choice",
+      "question": "Las pruebas informáticas:",
+      "explanation": "La prueba informática puede tener valor probatorio, pero exige obtención válida, cadena de custodia y respeto de garantías para que sea admisible y fiable.",
+      "correct_answer": "Tienen fuerza probatoria, y solo si existe evidencia directa y se respeta la cadena de custodia.",
+      "options": [
+        "No tienen fuerza probatoria en sede judicial.",
+        "Tienen fuerza probatoria, y solo si existe evidencia directa y se respeta la cadena de custodia.",
+        "Solo tienen valor cuando se investigan delitos de evasión fiscal."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 84,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q45",
+      "type": "single_choice",
+      "question": "El principio de Locard:",
+      "explanation": "El principio de Locard —todo contacto deja rastro— es fundamental en informática forense porque justifica la búsqueda de artefactos y huellas.",
+      "correct_answer": "Constituye un elemento clave del análisis forense.",
+      "options": [
+        "Está establecido en la LSSICE.",
+        "Se define como uno de los principios fundamentales que regulan los derechos de los ciudadanos de acuerdo con la Constitución Española.",
+        "Constituye un elemento clave del análisis forense."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 85,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q46",
+      "type": "single_choice",
+      "question": "Un delito informático:",
+      "explanation": "Un delito informático es el tipificado en el Código Penal en el que la informática actúa como medio, objeto o entorno de la conducta delictiva.",
+      "correct_answer": "Es un delito recogido en el Código Penal que hace uso de la informática como medio u objetivo.",
+      "options": [
+        "Es un tipo de delito llevado a cabo por un profesional de la informática o por alguien con competencias avanzadas en TIC.",
+        "Es un delito recogido en el Código Penal que hace uso de la informática como medio u objetivo.",
+        "Es una acción tipificada como delito en la LOPD y que utiliza la informática como medio u objetivo."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 86,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q47",
+      "type": "single_choice",
+      "question": "El análisis de riesgos:",
+      "explanation": "El análisis de riesgos identifica activos críticos, amenazas y necesidades de salvaguarda con ayuda de los propietarios de la información y de los activos.",
+      "correct_answer": "Permite determinar el nivel crítico de activos contando con los propietarios de los mismos, lo que permite ponderar si es preciso incorporar salvaguardas específicas que garanticen una rápida recuperación tras una interrupción de servicio.",
+      "options": [
+        "Debe emplearse para establecer si es procedente un plan de continuidad de negocios: si apenas hay riesgos no es necesario tal tipo de planificación.",
+        "Es competencia exclusiva del gestor senior que dirige el diseño y gestión del plan de continuidad de negocio.",
+        "Permite determinar el nivel crítico de activos contando con los propietarios de los mismos, lo que permite ponderar si es preciso incorporar salvaguardas específicas que garanticen una rápida recuperación tras una interrupción de servicio."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 87,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q48",
+      "type": "single_choice",
+      "question": "El plan de continuidad de negocio:",
+      "explanation": "El plan de continuidad de negocio y el plan de recuperación ante desastres forman el núcleo de la estrategia de continuidad.",
+      "correct_answer": "Junto con el Plan de Recuperación ante Desastres (PRD) son el eje de la estrategia de gestión de la continuidad de negocio.",
+      "options": [
+        "Es diseñado por el CIO, esto es, por el responsable del departamento TIC.",
+        "Junto con el Plan de Recuperación ante Desastres (PRD) son el eje de la estrategia de gestión de la continuidad de negocio.",
+        "Solo es necesario en el caso de que nuestra empresa sea un proveedor de servicios incluido en la infraestructura crítica de un país."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 88,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q49",
+      "type": "single_choice",
+      "question": "El plan de recuperación ante desastres:",
+      "explanation": "El PRD se centra sobre todo en restaurar la infraestructura tecnológica y los procesos de tratamiento de datos tras una interrupción grave.",
+      "correct_answer": "Está focalizado fundamentalmente en la reinstauración de los procesos tecnológicos asociados al manejo de datos.",
+      "options": [
+        "Está focalizado fundamentalmente en la reinstauración de los procesos tecnológicos asociados al manejo de datos.",
+        "Involucra a un equipo de trabajo.",
+        "Solo cuenta con personal del departamento TIC."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 89,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q50",
+      "type": "single_choice",
+      "question": "El análisis cuantitativo de riesgos:",
+      "explanation": "El análisis cuantitativo exige más datos, estimaciones económicas y modelización, por lo que suele resultar más costoso que el cualitativo.",
+      "correct_answer": "Es más caro que el análisis cualitativo.",
+      "options": [
+        "Es más caro que el análisis cualitativo.",
+        "Requiere un alto grado de intuición por parte del analista.",
+        "Debe realizarse obligatoriamente de modo manual."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 90,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q51",
+      "type": "single_choice",
+      "question": "En la última fase del ciclo de vida en el desarrollo de sistemas, se debe:",
+      "explanation": "La última fase del ciclo de vida es la terminación o retirada, e incluye la eliminación segura de datos en soportes físicos y lógicos.",
+      "correct_answer": "proceder a la completa y correcta eliminación de todos los datos almacenados en discos duros, papel, etc.",
+      "options": [
+        "dictaminar los beneficios (económicos u operativos) que se esperan del nuevo sistema, así como los costes asociados a su implantación.",
+        "proceder a la completa y correcta eliminación de todos los datos almacenados en discos duros, papel, etc.",
+        "generar un plan o estrategia que sustancie los objetivos de las fases 1 (Estudio de viabilidad) y 2 (Definición de requerimientos)."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 91,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q52",
+      "type": "single_choice",
+      "question": "DAST:",
+      "explanation": "DAST significa Dynamic Application Security Testing, es decir, herramientas de análisis dinámico de aplicaciones.",
+      "correct_answer": "Son las siglas inglesas para herramientas de análisis dinámico de aplicaciones.",
+      "options": [
+        "Es un estándar SDC.",
+        "Es un marco de herramientas fuzzing.",
+        "Son las siglas inglesas para herramientas de análisis dinámico de aplicaciones."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 92,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q53",
+      "type": "single_choice",
+      "question": "La enumeración...",
+      "explanation": "La enumeración de puertos y servicios permite conocer superficie de exposición y preparar el análisis de vulnerabilidades.",
+      "correct_answer": "de puertos abiertos e identificación de servicios asociados a los mismos, es pieza clave en el análisis de vulnerabilidades.",
+      "options": [
+        "de vulnerabilidades, es el paso previo a todo análisis de seguridad.",
+        "de puertos abiertos e identificación de servicios asociados a los mismos, es pieza clave en el análisis de vulnerabilidades.",
+        "es una metodología propia de la contabilidad, que nada tiene que ver con la seguridad informática y su auditoría."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 93,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q54",
+      "type": "single_choice",
+      "question": "¿Qué tipo de vulnerabilidad se produce cuando no se comprueban los argumentos de entrada de la información?",
+      "explanation": "Cuando no se validan adecuadamente las entradas, una consecuencia típica es la inyección SQL, porque el atacante introduce sentencias o fragmentos interpretables por la base de datos.",
+      "correct_answer": "Inyección SQL.",
+      "options": [
+        "Cross site request forgery.",
+        "Cross site scripting.",
+        "Inyección SQL."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 94,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q55",
+      "type": "single_choice",
+      "question": "La técnica de fuzzing:",
+      "explanation": "El fuzzing prueba cómo responde un programa ante entradas no esperadas, malformadas o aleatorias para descubrir fallos o vulnerabilidades.",
+      "correct_answer": "Se utiliza para ver el comportamiento de un programa respecto a entradas no estándar.",
+      "options": [
+        "Se utiliza por un ataque para generar ruido en un sistema de información.",
+        "Se utiliza para ver el comportamiento de un programa respecto a entradas no estándar.",
+        "Es de carácter estático."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 95,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q56",
+      "type": "single_choice",
+      "question": "El análisis forense es un tipo de control:",
+      "explanation": "La forense es una medida reactiva: se aplica después del incidente o cuando ya existen indicios que investigar.",
+      "correct_answer": "Que se aplica después de la ocurrencia de un incidente.",
+      "options": [
+        "Que se aplica después de la ocurrencia de un incidente.",
+        "Que se aplica durante la ocurrencia de un incidente.",
+        "Que se despliega como medida preventiva o disuasoria."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 96,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q57",
+      "type": "single_choice",
+      "question": "¿Cuál de las siguientes fases no forma parte del ciclo de vida del análisis forense?",
+      "explanation": "Diseño de sistemas TIC no es una fase del ciclo de vida forense; las fases típicas son adquisición, preservación, análisis y presentación.",
+      "correct_answer": "Diseño de sistemas TIC.",
+      "options": [
+        "Análisis.",
+        "Diseño de sistemas TIC.",
+        "Adquisición."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 97,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q58",
+      "type": "single_choice",
+      "question": "El objetivo de todo análisis forense es:",
+      "explanation": "La informática forense busca reconstruir hechos a partir de artefactos, trazas y evidencias digitales preservadas correctamente.",
+      "correct_answer": "Encontrar hechos partiendo del análisis de artefactos.",
+      "options": [
+        "Encontrar y registrar fallos en el sistema debidos a errores de programación.",
+        "Encontrar y registrar fallos en el sistema fruto de un mal uso de las tecnologías.",
+        "Encontrar hechos partiendo del análisis de artefactos."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 98,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q59",
+      "type": "single_choice",
+      "question": "¿Cuál de las siguientes auditorías es obligatoria?",
+      "explanation": "La auditoría de verificación es la obligatoria en este contexto, porque sirve para comprobar formalmente el cumplimiento exigible del sistema.",
+      "correct_answer": "La auditoría de verificación.",
+      "options": [
+        "La auditoría externa.",
+        "La auditoría de verificación.",
+        "La auditoría de certificación."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 99,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q60",
+      "type": "single_choice",
+      "question": "El sistema de control interno:",
+      "explanation": "El sistema de control interno no equivale a una auditoría, pero sí sirve para supervisar y asegurar que los procesos de control y auditoría funcionen correctamente.",
+      "correct_answer": "Es un mecanismo de control para vigilar la correcta realización de auditorías internas y externas.",
+      "options": [
+        "Es equivalente a una auditoría interna.",
+        "Es un mecanismo de control para vigilar la correcta realización de auditorías internas y externas.",
+        "Solo cubre el área de las tecnologías y sistemas de información."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 100,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q61",
+      "type": "single_choice",
+      "question": "Un auditor interno ha de informar a:",
+      "explanation": "La función de auditoría interna debe reportar a la alta dirección o al máximo órgano de gobierno para preservar independencia.",
+      "correct_answer": "A los órganos de alta dirección de la organización.",
+      "options": [
+        "Al responsable de la auditoría externa.",
+        "Al responsable del área de tecnologías y sistemas de información.",
+        "A los órganos de alta dirección de la organización."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 101,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q62",
+      "type": "single_choice",
+      "question": "¿Cuál de los siguientes enunciados no es aplicable al despliegue de medidas de protección de las instalaciones y activos de una organización?",
+      "explanation": "Blindar ventanas con barrotes no es una medida generalizable ni siempre adecuada; en cambio, resistencia de puertas y contención de incendios sí son criterios habituales.",
+      "correct_answer": "Las ventanas han de estar protegidas mediante barrotes.",
+      "options": [
+        "Las paredes deben tener un índice de contención de incendios suficientemente alto.",
+        "Las ventanas han de estar protegidas mediante barrotes.",
+        "Las puertas deben ser resistentes frente a intentos de forzarlas."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 102,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q63",
+      "type": "single_choice",
+      "question": "¿Cuál es la principal obligación de un auditor con respecto al ciclo de vida de un sistema?",
+      "explanation": "El auditor debe comprobar que el ciclo de vida del sistema está alineado con los objetivos de la organización y con decisiones válidamente aprobadas por la dirección.",
+      "correct_answer": "Verificar que se cumplen los objetivos de la organización y que cada decisión está avalada por los órganos de dirección.",
+      "options": [
+        "Verificar que se cumplen los objetivos de la organización y que cada decisión está avalada por los órganos de dirección.",
+        "Verificar que todos los contratos de negocio están debidamente firmados y ejecutados por los órganos de dirección.",
+        "Verificar que los controles internos son validados antes de su implementación por una tercera parte."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 103,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q64",
+      "type": "single_choice",
+      "question": "¿Cuál de las siguientes definiciones no se ajusta a la descripción de un control?",
+      "explanation": "Los controles correctivos reducen el impacto una vez ocurrido el incidente; quien reduce la probabilidad de ataque es el control preventivo o disuasorio.",
+      "correct_answer": "Los controles correctivos reducen la posibilidad de un ataque deliberado.",
+      "options": [
+        "Los controles detectivos descubren ataques y activan controles preventivos o correctivos.",
+        "Los controles correctivos reducen el efecto de un ataque.",
+        "Los controles correctivos reducen la posibilidad de un ataque deliberado."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 104,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q65",
+      "type": "single_choice",
+      "question": "El diseño adecuado de los protocolos requiere...",
+      "explanation": "El diseño de protocolos suele modelarse por capas para identificar funciones, interfaces y responsabilidades de cada nivel de comunicación.",
+      "correct_answer": "identificar todos los elementos involucrados en un proceso de comunicación, lo cual se suele efectuar adoptando una arquitectura de capas.",
+      "options": [
+        "identificar todos los elementos involucrados en un proceso de comunicación, lo cual se suele efectuar adoptando una arquitectura de capas.",
+        "no adoptar normalmente una arquitectura de capas, para así indentificar mejor algunos de los elementos que no intervienen en un proceso de comunicación.",
+        "identificar todos los elementos involucrados en un proceso de comunicación, lo cual no se suele efectuar adoptando una arquitectura de capas."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 105,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q66",
+      "type": "single_choice",
+      "question": "¿Cuál de los siguientes protocolos proporciona mayor seguridad en redes wifi?",
+      "explanation": "Entre WEP, WPA y PGP, la opción de seguridad Wi-Fi es WPA; PGP no es un protocolo de protección de redes inalámbricas.",
+      "correct_answer": "WPA.",
+      "options": [
+        "WEP.",
+        "WPA.",
+        "PGP."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 106,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q67",
+      "type": "single_choice",
+      "question": "¿Qué cortafuegos emplea una tabla dinámica de estado para examinar el contenido de los paquetes?",
+      "explanation": "La inspección de estado usa una tabla dinámica para seguir conexiones y decidir si un paquete pertenece a una sesión legítima.",
+      "correct_answer": "Un cortafuegos de inspección de estado.",
+      "options": [
+        "Un cortafuegos de filtrado de paquetes.",
+        "Un cortafuegos de nivel de aplicación.",
+        "Un cortafuegos de inspección de estado."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 107,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q68",
+      "type": "single_choice",
+      "question": "¿Qué método de backup, de los listados a continuación, requiere utilizar el mayor número de cintas por parte del operador para llevar a cabo una restauración completa del sistema, si cada noche se utiliza una cinta distinta con rotación cada cinco días?",
+      "explanation": "La restauración completa con copias incrementales exige la última copia total más todos los incrementales posteriores; por eso requiere más cintas.",
+      "correct_answer": "Backup incremental.",
+      "options": [
+        "Backup total.",
+        "Backup diferencial.",
+        "Backup incremental."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 108,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q69",
+      "type": "single_choice",
+      "question": "¿Cuál de los siguientes métodos de backup es el más adecuado para un almacenamiento externo, fuera el emplazamiento habitual de nuestro negocio?",
+      "explanation": "Para almacenamiento externo fuera del emplazamiento habitual, la copia total simplifica recuperación y gestión, aunque ocupe más espacio.",
+      "correct_answer": "Backup total.",
+      "options": [
+        "Backup total.",
+        "Backup diferencial.",
+        "Backup incremental."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 109,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q70",
+      "type": "single_choice",
+      "question": "En criptografía de clave pública:",
+      "explanation": "En criptografía asimétrica, si se cifra con la clave pública, solo la clave privada correspondiente puede descifrar.",
+      "correct_answer": "Si la clave pública cifra, solo la clave privada puede descifrar.",
+      "options": [
+        "Solo la clave privada puede cifrar y solo la clave pública puede descifrar.",
+        "La clave pública es utilizada para cifrar y descifrar.",
+        "Si la clave pública cifra, solo la clave privada puede descifrar."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 110,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q71",
+      "type": "single_choice",
+      "question": "¿Cuál de las siguientes opciones no representa un elemento del análisis de riesgos?",
+      "explanation": "Seleccionar e implantar contramedidas pertenece al tratamiento del riesgo; no es un elemento del análisis de riesgos en sentido estricto.",
+      "correct_answer": "Seleccionar las contramedidas apropiadas e implementarlas.",
+      "options": [
+        "Seleccionar las contramedidas apropiadas e implementarlas.",
+        "Analizar el entorno.",
+        "Crear un informe de coste/beneficio para cada una de las contramedidas."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 111,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q72",
+      "type": "single_choice",
+      "question": "Según el principio de “mínimo privilegio” en seguridad...",
+      "explanation": "El principio de mínimo privilegio exige dar a cada componente únicamente los accesos imprescindibles para su función.",
+      "correct_answer": "todo componente de un sistema complejo ha de tener acceso solo a aquellos recursos que le hacen falta para poder llevar a cabo su tarea.",
+      "options": [
+        "todo componente de un sistema, para poder llevar a cabo su tarea, NO ha de tener acceso solo a aquellos recursos que le hacen falta.",
+        "todo componente de un sistema complejo NO ha de tener acceso solo a aquellos recursos que le hacen falta para poder llevar a cabo su tarea.",
+        "todo componente de un sistema complejo ha de tener acceso solo a aquellos recursos que le hacen falta para poder llevar a cabo su tarea."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 112,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q73",
+      "type": "single_choice",
+      "question": "¿Qué es una política de seguridad de la información?",
+      "explanation": "Una política de seguridad de alto nivel fija directrices, roles y objetivos; no baja al detalle técnico de elegir un cortafuegos concreto.",
+      "correct_answer": "El conjunto de directrices a seguir para definir un programa de seguridad.",
+      "options": [
+        "El conjunto de directrices a seguir para definir un programa de seguridad.",
+        "El conjunto de procedimientos para configurar cortafuegos.",
+        "El conjunto de objetivos que, de acuerdo con la Alta Dirección de la empresa, se deben satisfacer en términos de seguridad."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 113,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q74",
+      "type": "single_choice",
+      "question": "Al establecer nivel de acceso a información sensible, se ha de preservar:",
+      "explanation": "Al fijar acceso a información sensible debe preservarse el mínimo privilegio: cada usuario accede solo a lo necesario para su función.",
+      "correct_answer": "Mínimo privilegio.",
+      "options": [
+        "Separación de responsabilidades.",
+        "Mínimo privilegio.",
+        "Una cuenta y un usuario."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 114,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q75",
+      "type": "single_choice",
+      "question": "¿Cuál es el objetivo de un SGSI?",
+      "explanation": "El objetivo de un SGSI es reducir el riesgo y sostener la continuidad del negocio de forma proactiva mediante controles y mejora continua.",
+      "correct_answer": "Minimizar el riesgo y garantizar la continuidad de negocio de forma proactiva, limitando el impacto de una violación de la seguridad.",
+      "options": [
+        "Minimizar el riesgo y garantizar la continuidad de negocio de forma proactiva, limitando el impacto de una violación de la seguridad.",
+        "Conseguir las certificaciones de calidad de nuestro sistema de información.",
+        "Detectar posibles problemas de seguridad, aconsejar cómo solucionarlos y evitar posibles ataques o errores de seguridad que menoscaben la actividad de nuestra empresa y su prestigio."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 115,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q76",
+      "type": "single_choice",
+      "question": "¿Cuál de las siguientes acciones no constituye una buena práctica en la gestión de la seguridad?",
+      "explanation": "Centralizar todas las contraseñas de todos los usuarios en un único servidor es una mala práctica porque crea un punto único de fallo y de compromiso.",
+      "correct_answer": "Tener un registro con todas las contraseñas de todos los usuarios en un único servidor central.",
+      "options": [
+        "Revisar logs de acceso para detectar conductas o comportamientos no autorizados.",
+        "Tener un registro con todas las contraseñas de todos los usuarios en un único servidor central.",
+        "Investigar al respecto de nuevas tendencias en el despliegue de mecanismos de intrusión o de ataque."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 116,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q77",
+      "type": "single_choice",
+      "question": "La auditoría informática es necesaria para:",
+      "explanation": "La auditoría informática ayuda a detectar problemas, valorar controles y recomendar mejoras para evitar incidentes y reducir impacto.",
+      "correct_answer": "Detectar posibles problemas de seguridad, aconsejar cómo solucionarlos y evitar posibles ataques o errores de seguridad que menoscaben la actividad de nuestra empresa y su prestigio.",
+      "options": [
+        "Conseguir las certificaciones de calidad de nuestro sistema de información.",
+        "Detectar posibles problemas de seguridad, aconsejar cómo solucionarlos y evitar posibles ataques o errores de seguridad que menoscaben la actividad de nuestra empresa y su prestigio.",
+        "Asegurar que los costes de producción no exceden a los beneficios que reporta nuestro negocio."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 117,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q78",
+      "type": "single_choice",
+      "question": "¿Qué es un activo de información?",
+      "explanation": "Un activo de información es cualquier elemento valioso para la organización y necesario para su actividad: datos, sistemas, servicios, soportes o procesos.",
+      "correct_answer": "Todo aquel elemento que posee un valor para nuestra empresa y que es necesario para poder llevar a cabo su actividad de negocio.",
+      "options": [
+        "El conjunto de documentos de una empresa.",
+        "El conjunto de documentos y equipos de una empresa.",
+        "Todo aquel elemento que posee un valor para nuestra empresa y que es necesario para poder llevar a cabo su actividad de negocio."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 118,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q79",
+      "type": "single_choice",
+      "question": "¿Cuál de estas afirmaciones es correcta?",
+      "explanation": "Los controles disuasorios buscan desalentar o hacer desistir al atacante antes de que actúe; no detectan ni corrigen, sino que desaniman.",
+      "correct_answer": "El objetivo de los controles disuasorios es construir los mecanismos oportunos para hacer desistir a usuarios hostiles de su voluntad de atacar el sistema.",
+      "options": [
+        "El objetivo de los controles detectivos es construir los mecanismos oportunos para hacer desistir a usuarios hostiles de su voluntad de atacar el sistema.",
+        "El objetivo de los controles disuasorios es construir los mecanismos oportunos para hacer desistir a usuarios hostiles de su voluntad de atacar el sistema.",
+        "El objetivo de los controles preventivos es construir los mecanismos oportunos para hacer desistir a usuarios hostiles de su voluntad de atacar el sistema."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 119,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q80",
+      "type": "single_choice",
+      "question": "¿Cuál es el objetivo de un SGSI?",
+      "explanation": "El objetivo de un SGSI es reducir el riesgo y sostener la continuidad del negocio de forma proactiva mediante controles y mejora continua.",
+      "correct_answer": "Minimizar el riesgo y garantizar la continuidad de negocio de forma proactiva, limitando el impacto de una violación de la seguridad.",
+      "options": [
+        "Asegurar que los costes de producción no exceden a los beneficios que reporta nuestro negocio.",
+        "Minimizar el riesgo y garantizar la continuidad de negocio de forma proactiva, limitando el impacto de una violación de la seguridad.",
+        "Conseguir las certificaciones de calidad de nuestro sistema de información."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 120,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q81",
+      "type": "single_choice",
+      "question": "¿Qué actor no forma parte de la gobernanza TIC de una empresa?",
+      "explanation": "El auditor evalúa la gobernanza y los controles, pero no forma parte de la estructura ordinaria de gobierno TIC de la empresa.",
+      "correct_answer": "El auditor.",
+      "options": [
+        "El usuario final.",
+        "El CIO.",
+        "El auditor."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 121,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q82",
+      "type": "single_choice",
+      "question": "La certificación CISA está asociada a:",
+      "explanation": "La certificación CISA pertenece a ISACA, organización de referencia en auditoría y gobierno de TI.",
+      "correct_answer": "ISACA.",
+      "options": [
+        "ISACA.",
+        "(ISC)2.",
+        "AENOR."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 122,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q83",
+      "type": "single_choice",
+      "question": "El principio de ejecución compete a:",
+      "explanation": "El principio de ejecución se asocia al gobierno de negocio, porque conecta la estrategia con su realización efectiva.",
+      "correct_answer": "El gobierno de negocio.",
+      "options": [
+        "El gobierno de negocio.",
+        "El gobierno TIC.",
+        "El gobierno corporativo."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 123,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q84",
+      "type": "single_choice",
+      "question": "Según la LOPD datos como la ideología de una persona deben protegerse...",
+      "explanation": "Los datos especialmente sensibles, como la ideología, exigen el nivel más alto de protección.",
+      "correct_answer": "de acuerdo a un nivel alto de protección.",
+      "options": [
+        "de acuerdo a un nivel bajo de protección.",
+        "de acuerdo a un nivel medio de protección.",
+        "de acuerdo a un nivel alto de protección."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 124,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q85",
+      "type": "single_choice",
+      "question": "La LSSICE se aplica:",
+      "explanation": "La LSSICE regula actividades realizadas por vía electrónica, especialmente servicios de la sociedad de la información y comercio electrónico.",
+      "correct_answer": "A todos aquellos negocios que utilicen medios TIC para realizar su actividad o para la promoción de la misma.",
+      "options": [
+        "A todos aquellos negocios que utilicen medios TIC para realizar su actividad o para la promoción de la misma.",
+        "A los delitos de espionaje industrial.",
+        "A la custodia de datos personales."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 125,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q86",
+      "type": "single_choice",
+      "question": "Un ejemplo de ciberterrorismo es:",
+      "explanation": "Los ataques DDoS son un ejemplo típico de ciberterrorismo o ciberataque con impacto masivo sobre servicios y disponibilidad.",
+      "correct_answer": "Ataques DDoS.",
+      "options": [
+        "Es el spam telefónico.",
+        "Ataques DDoS.",
+        "Escalada de privilegios por parte de un empleado que acaba de ser despedido."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 126,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q87",
+      "type": "single_choice",
+      "question": "Según el NIST el plan de continuidad de negocio consta de:",
+      "explanation": "En la asignatura se maneja la referencia de NIST con 4 fases para el plan de continuidad de negocio.",
+      "correct_answer": "4 fases.",
+      "options": [
+        "2 fases.",
+        "3 fases.",
+        "4 fases."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 127,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q88",
+      "type": "single_choice",
+      "question": "El gestor senior:",
+      "explanation": "El gestor senior debe estar implicado en el PRD y dirigir aspectos clave como la comunicación y la coordinación ejecutiva.",
+      "correct_answer": "Debe formar parte del plan de recuperación ante desastres y estará encargado de la política de comunicación en caso de desastre.",
+      "options": [
+        "Debe formar parte del plan de recuperación ante desastres.",
+        "Debe formar parte del plan de recuperación ante desastres e intervenir en el proceso de recuperación.",
+        "Debe formar parte del plan de recuperación ante desastres y estará encargado de la política de comunicación en caso de desastre."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 128,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q89",
+      "type": "single_choice",
+      "question": "En el contexto de un plan de continuidad de negocio, un error en la cadena de continuidad se denomina:",
+      "explanation": "En continuidad de negocio, una ruptura de la cadena de servicio se denomina interrupción.",
+      "correct_answer": "interrupción.",
+      "options": [
+        "ataque.",
+        "interrupción.",
+        "crisis."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 129,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q90",
+      "type": "single_choice",
+      "question": "Toda planificación de una auditoría informática:",
+      "explanation": "La planificación de una auditoría debe estar respaldada por la alta dirección, que asume responsabilidad y legitima el proceso.",
+      "correct_answer": "Debe contar con la aprobación y aceptación de responsabilidad por parte del CEO.",
+      "options": [
+        "Debe contar con la aprobación y aceptación de responsabilidad por parte del CEO.",
+        "Solo compete a los miembros del departamento TIC de un organismo o institución.",
+        "Debe contemplar el papel fundamental del auditor a la hora de realizar cambios en las infraestructuras y lógica TIC tras el diagnóstico del proceso de auditoría."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 130,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q91",
+      "type": "single_choice",
+      "question": "La correcta concreción de objetivos de seguridad:",
+      "explanation": "Los objetivos de seguridad solo se concretan bien cuando procesos, tecnología y personas están alineados.",
+      "correct_answer": "Requiere un ensamblaje adecuado y eficiente entre procesos, tecnología y personas.",
+      "options": [
+        "Requiere un ensamblaje adecuado y eficiente entre procesos, tecnología y personas.",
+        "Solo puede alcanzarse utilizando software privativo, esto es, evitando la opción opensource.",
+        "Viene garantizada por el despliegue de elementos de seguridad perimetral y la puesta en marcha de medidas de protección en profundidad de equipos."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 131,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q92",
+      "type": "single_choice",
+      "question": "Una auditoría informática no puede realizarse:",
+      "explanation": "La auditoría necesita evidencias directas suficientes; sin ellas no puede sostener conclusiones sólidas.",
+      "correct_answer": "Sin evidencias directas.",
+      "options": [
+        "Sin evidencias indirectas.",
+        "Sin evidencias directas.",
+        "Sin trazas de tipo SAST."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 132,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q93",
+      "type": "single_choice",
+      "question": "¿Cuál de las siguientes herramientas no se emplea en el escaneado de puertos?",
+      "explanation": "Cain&Abel no es una herramienta típica de escaneo de puertos; netstat y nmap sí se usan para ello.",
+      "correct_answer": "Cain&Abel.",
+      "options": [
+        "netstat.",
+        "nmap.",
+        "Cain&Abel."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 133,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q94",
+      "type": "single_choice",
+      "question": "Las rainbow tables:",
+      "explanation": "Las rainbow tables son tablas precalculadas que aceleran el ataque a hashes de contraseñas.",
+      "correct_answer": "Es la base del ataque más eficiente a los hashes de contraseñas.",
+      "options": [
+        "Es la base del ataque más eficiente a los hashes de contraseñas.",
+        "Es una colección de vulnerabilidades públicas.",
+        "Es una colección de vectores de ataque."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 134,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q95",
+      "type": "single_choice",
+      "question": "La ingeniería inversa:",
+      "explanation": "La ingeniería inversa busca deducir diseño, funcionamiento o incluso código a partir de un ejecutable o sistema existente.",
+      "correct_answer": "Tiene por objeto inferir el código fuente asociado a una cierta aplicación.",
+      "options": [
+        "Es una técnica orientada a recomponer la historia de un sistema de información mediante la evaluación de los log de sistema.",
+        "Tiene por objeto inferir el código fuente asociado a una cierta aplicación.",
+        "Es una mala praxis de programación que obedece a principios contrarios a la buena programación y a los fundamentos de la ingeniería de seguridad."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 135,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q96",
+      "type": "single_choice",
+      "question": "La técnica denominada fingerprinting:",
+      "explanation": "El fingerprinting se centra en caracterizar un dispositivo o sistema concreto para obtener datos útiles en auditoría, pentesting o análisis de vulnerabilidades.",
+      "correct_answer": "Tiene por foco un cierto dispositivo sobre el cual quiere extraer información que pueda ser relevante para un análisis forense, un test de penetración o un análisis de vulnerabilidades.",
+      "options": [
+        "Es un procedimiento empleado en la auditoría informática.",
+        "Tiene por objetivo caracterizar la topología y características de redes de datos.",
+        "Tiene por foco un cierto dispositivo sobre el cual quiere extraer información que pueda ser relevante para un análisis forense, un test de penetración o un análisis de vulnerabilidades."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 136,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q97",
+      "type": "single_choice",
+      "question": "Los test de penetración:",
+      "explanation": "Un test de penetración es activo: el evaluador interactúa con el objetivo para comprobar si las vulnerabilidades son explotables.",
+      "correct_answer": "Son llevados de modo activo por un evaluador.",
+      "options": [
+        "Son llevados de modo activo por un evaluador.",
+        "Son llevados de modo pasivo partiendo de una lista cerrada y con procedimiento plenamente detallado.",
+        "No son mecanismos para aumentar la seguridad de los SGSI."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 137,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q98",
+      "type": "single_choice",
+      "question": "¿Cuál de las siguientes medidas representa un mayor coste para una organización?",
+      "explanation": "El análisis forense suele ser la medida más costosa porque exige especialistas, preservación de evidencias y actuación tras un incidente real.",
+      "correct_answer": "Análisis forense.",
+      "options": [
+        "Test de intrusión.",
+        "Auditoría de seguridad.",
+        "Análisis forense."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 138,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q99",
+      "type": "single_choice",
+      "question": "¿Cuál de las siguientes auditorías cubre un espectro más global?",
+      "explanation": "La auditoría de sistema tiene alcance más global porque evalúa el conjunto del sistema, no solo un proceso o un producto aislado.",
+      "correct_answer": "Auditoría de sistema.",
+      "options": [
+        "Auditoría de producto.",
+        "Auditoría de proceso.",
+        "Auditoría de sistema."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 139,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q100",
+      "type": "single_choice",
+      "question": "La auditoría de proceso:",
+      "explanation": "La auditoría de proceso se centra en cómo se ejecutan los procesos y en su rendimiento, eficacia o adecuación.",
+      "correct_answer": "Está enfocada a la evaluación de rendimiento.",
+      "options": [
+        "Es una auditoría obligatoria orientada a verificar el cumplimiento de ciertas normativas.",
+        "Está enfocada a la evaluación de rendimiento.",
+        "Tiene por cometido validar productos software."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 140,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q101",
+      "type": "single_choice",
+      "question": "El gobierno de las TIC se apoya:",
+      "explanation": "La gobernanza TIC se apoya en seis principios, siguiendo la referencia de ISO/IEC 38500.",
+      "correct_answer": "En seis principios.",
+      "options": [
+        "En seis principios.",
+        "En cuatro principios.",
+        "En tres principios."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 141,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q102",
+      "type": "single_choice",
+      "question": "¿Cuál de los siguientes principios de gobernanza TIC se encarga de satisfacer la legislación vigente?",
+      "explanation": "El principio de conformidad pertenece al gobierno TIC porque vela por el cumplimiento legal, regulatorio y normativo.",
+      "correct_answer": "Conformidad.",
+      "options": [
+        "Estrategia.",
+        "Conformidad.",
+        "Responsabilidad."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 142,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q103",
+      "type": "single_choice",
+      "question": "A la gobernanza corporativa compete:",
+      "explanation": "La gobernanza corporativa aborda la separación entre propiedad y control, cuestión clásica del gobierno corporativo.",
+      "correct_answer": "La separación de la propiedad y el control.",
+      "options": [
+        "La separación de la propiedad y el control.",
+        "La dirección y control del negocio.",
+        "La dirección y control TIC."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 143,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q104",
+      "type": "single_choice",
+      "question": "La auditoria informática:",
+      "explanation": "La auditoría informática evalúa si las medidas y controles implantados son adecuados y conformes a normas, marcos y requisitos.",
+      "correct_answer": "Su objetivo es validar medidas de seguridad adoptadas en correspondencia con marcos legales y normativos, así como con guías de recomendaciones y estándares de certificación.",
+      "options": [
+        "Está basada en el criterio de Daubert.",
+        "Tiene carácter y objetivo probatorio.",
+        "Su objetivo es validar medidas de seguridad adoptadas en correspondencia con marcos legales y normativos, así como con guías de recomendaciones y estándares de certificación."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 144,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q105",
+      "type": "single_choice",
+      "question": "Las pruebas informáticas:",
+      "explanation": "La prueba informática puede tener valor probatorio, pero exige obtención válida, cadena de custodia y respeto de garantías para que sea admisible y fiable.",
+      "correct_answer": "Tienen fuerza probatoria, y solo si existe evidencia directa y se respeta la cadena de custodia.",
+      "options": [
+        "No tienen fuerza probatoria en sede judicial.",
+        "Tienen fuerza probatoria, y solo si existe evidencia directa y se respeta la cadena de custodia.",
+        "Solo tienen valor cuando se investigan delitos de evasión fiscal."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 145,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q106",
+      "type": "single_choice",
+      "question": "El principio de Locard:",
+      "explanation": "El principio de Locard —todo contacto deja rastro— es fundamental en informática forense porque justifica la búsqueda de artefactos y huellas.",
+      "correct_answer": "Constituye un elemento clave del análisis forense.",
+      "options": [
+        "Está establecido en la LSSICE.",
+        "Se define como uno de los principios fundamentales que regulan los derechos de los ciudadanos de acuerdo con la Constitución Española.",
+        "Constituye un elemento clave del análisis forense."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 146,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q107",
+      "type": "single_choice",
+      "question": "El equipo involucrado en la gestión de un plan de continuidad de negocio:",
+      "explanation": "La continuidad de negocio requiere un equipo multidisciplinar con dirección, áreas funcionales y equipos de desastre y emergencia.",
+      "correct_answer": "Incluye al gestor senior, a representantes de todas las unidades funcionales, al equipo de gestión de desastres y al equipo de respuesta ante emergencias.",
+      "options": [
+        "Solo incluye a miembros del comité ejecutivo de la empresa.",
+        "Solo incluye a miembros del departamento TIC.",
+        "Incluye al gestor senior, a representantes de todas las unidades funcionales, al equipo de gestión de desastres y al equipo de respuesta ante emergencias."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 147,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q108",
+      "type": "single_choice",
+      "question": "El análisis de riesgos:",
+      "explanation": "El análisis de riesgos identifica activos críticos, amenazas y necesidades de salvaguarda con ayuda de los propietarios de la información y de los activos.",
+      "correct_answer": "Permite determinar el nivel crítico de activos contando con los propietarios de los mismos, lo que permite ponderar si es preciso incorporar salvaguardas específicas que garanticen una rápida recuperación tras una interrupción de servicio.",
+      "options": [
+        "Debe emplearse para establecer si es procedente un plan de continuidad de negocios: si apenas hay riesgos no es necesario tal tipo de planificación.",
+        "Es competencia exclusiva del gestor senior que dirige el diseño y gestión del plan de continuidad de negocio.",
+        "Permite determinar el nivel crítico de activos contando con los propietarios de los mismos, lo que permite ponderar si es preciso incorporar salvaguardas específicas que garanticen una rápida recuperación tras una interrupción de servicio."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 148,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q109",
+      "type": "single_choice",
+      "question": "El plan de continuidad de negocio:",
+      "explanation": "El plan de continuidad de negocio y el plan de recuperación ante desastres forman el núcleo de la estrategia de continuidad.",
+      "correct_answer": "Junto con el Plan de Recuperación ante Desastres (PRD) son el eje de la estrategia de gestión de la continuidad de negocio.",
+      "options": [
+        "Es diseñado por el CIO, esto es, por el responsable del departamento TIC.",
+        "Junto con el Plan de Recuperación ante Desastres (PRD) son el eje de la estrategia de gestión de la continuidad de negocio.",
+        "Solo es necesario en el caso de que nuestra empresa sea un proveedor de servicios incluido en la infraestructura crítica de un país."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 149,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q110",
+      "type": "single_choice",
+      "question": "De acuerdo con la definición de evidencia en el ámbito legal, podemos distinguir dos tipos de evidencias:",
+      "explanation": "En el ámbito legal se suele distinguir entre evidencia directa y evidencia indirecta o circunstancial.",
+      "correct_answer": "Directas (evidencias probatorias) y Indirectas (evidencias circunstanciales)",
+      "options": [
+        "Directas (evidencias probatorias) y Documentales (transacciones, recibos, facturas, ficheros log, etc.)",
+        "Indirectas (evidencias circunstanciales) y Documentales (transacciones, recibos, facturas, ficheros log, etc.)",
+        "Directas (evidencias probatorias) y Indirectas (evidencias circunstanciales)"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 150,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q111",
+      "type": "single_choice",
+      "question": "El análisis cuantitativo de riesgos:",
+      "explanation": "El análisis cuantitativo exige más datos, estimaciones económicas y modelización, por lo que suele resultar más costoso que el cualitativo.",
+      "correct_answer": "Es más caro que el análisis cualitativo.",
+      "options": [
+        "Es más caro que el análisis cualitativo.",
+        "Requiere un alto grado de intuición por parte del analista.",
+        "Debe realizarse obligatoriamente de modo manual."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 151,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q112",
+      "type": "single_choice",
+      "question": "En la última fase del ciclo de vida en el desarrollo de sistemas, se debe:",
+      "explanation": "La última fase del ciclo de vida es la terminación o retirada, e incluye la eliminación segura de datos en soportes físicos y lógicos.",
+      "correct_answer": "proceder a la completa y correcta eliminación de todos los datos almacenados en discos duros, papel, etc.",
+      "options": [
+        "dictaminar los beneficios (económicos u operativos) que se esperan del nuevo sistema, así como los costes asociados a su implantación.",
+        "proceder a la completa y correcta eliminación de todos los datos almacenados en discos duros, papel, etc.",
+        "generar un plan o estrategia que sustancie los objetivos de las fases 1 (Estudio de viabilidad) y 2 (Definición de requerimientos)."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 152,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q113",
+      "type": "single_choice",
+      "question": "¿Qué modalidad de XSS implica una modificación del código fuente del servidor web?",
+      "explanation": "El XSS persistente almacena el payload en el servidor o en recursos servidos por él, de modo que modifica el contenido que reciben otros usuarios.",
+      "correct_answer": "XSS persistente.",
+      "options": [
+        "XSS persistente.",
+        "XSS reflejado.",
+        "XSS consistente."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 153,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q114",
+      "type": "single_choice",
+      "question": "La enumeración...",
+      "explanation": "La enumeración de puertos y servicios permite conocer superficie de exposición y preparar el análisis de vulnerabilidades.",
+      "correct_answer": "de puertos abiertos e identificación de servicios asociados a los mismos, es pieza clave en el análisis de vulnerabilidades.",
+      "options": [
+        "de vulnerabilidades, es el paso previo a todo análisis de seguridad.",
+        "de puertos abiertos e identificación de servicios asociados a los mismos, es pieza clave en el análisis de vulnerabilidades.",
+        "es una metodología propia de la contabilidad, que nada tiene que ver con la seguridad informática y su auditoría."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 154,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q115",
+      "type": "single_choice",
+      "question": "¿Qué tipo de vulnerabilidad se produce cuando no se comprueban los argumentos de entrada de la información?",
+      "explanation": "Cuando no se validan adecuadamente las entradas, una consecuencia típica es la inyección SQL, porque el atacante introduce sentencias o fragmentos interpretables por la base de datos.",
+      "correct_answer": "Inyección SQL.",
+      "options": [
+        "Cross site request forgery.",
+        "Cross site scripting.",
+        "Inyección SQL."
+      ],
+      "correct_index": 2,
+      "meta": {
+        "original_question_number": 155,
+        "correct_letter": "C"
+      }
+    },
+    {
+      "id": "q116",
+      "type": "single_choice",
+      "question": "¿Cuál de las siguientes afirmaciones sobre la auditoría de seguridad es falsa?",
+      "explanation": "La auditoría de seguridad no certifica por sí sola la robustez técnica real de un SGSI; evalúa sobre todo cumplimiento, adecuación de controles y situación del sistema.",
+      "correct_answer": "Las auditorías de seguridad informan positivamente sobre la robustez de un SGSI.",
+      "options": [
+        "Las auditorías de seguridad informan positivamente sobre la robustez de un SGSI.",
+        "Las auditorías de seguridad informan positivamente sobre el cumplimiento de estándares, normativas y guías de recomendación de seguridad de la información.",
+        "El desarrollo de una auditoría de seguridad es mucho más complejo que la realización de un análisis de vulnerabilidades."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 156,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q117",
+      "type": "single_choice",
+      "question": "El análisis forense es un tipo de control:",
+      "explanation": "La forense es una medida reactiva: se aplica después del incidente o cuando ya existen indicios que investigar.",
+      "correct_answer": "Que se aplica después de la ocurrencia de un incidente.",
+      "options": [
+        "Que se aplica después de la ocurrencia de un incidente.",
+        "Que se aplica durante la ocurrencia de un incidente.",
+        "Que se despliega como medida preventiva o disuasoria."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 157,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q118",
+      "type": "single_choice",
+      "question": "¿Cuál de las siguientes fases no forma parte del ciclo de vida del análisis forense?",
+      "explanation": "Diseño de sistemas TIC no es una fase del ciclo de vida forense; las fases típicas son adquisición, preservación, análisis y presentación.",
+      "correct_answer": "Diseño de sistemas TIC.",
+      "options": [
+        "Análisis.",
+        "Diseño de sistemas TIC.",
+        "Adquisición."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 158,
+        "correct_letter": "B"
+      }
+    },
+    {
+      "id": "q119",
+      "type": "single_choice",
+      "question": "El control interno:",
+      "explanation": "El control interno es continuo y forma parte de la operativa habitual de supervisión y mejora.",
+      "correct_answer": "Se lleva a cabo de modo continuo.",
+      "options": [
+        "Se lleva a cabo de modo continuo.",
+        "Se efectúa una vez al año.",
+        "Entra en juego solo después de una incidencia."
+      ],
+      "correct_index": 0,
+      "meta": {
+        "original_question_number": 159,
+        "correct_letter": "A"
+      }
+    },
+    {
+      "id": "q120",
+      "type": "single_choice",
+      "question": "¿Cuál de las siguientes auditorías es obligatoria?",
+      "explanation": "La auditoría de verificación es la obligatoria en este contexto, porque sirve para comprobar formalmente el cumplimiento exigible del sistema.",
+      "correct_answer": "La auditoría de verificación.",
+      "options": [
+        "La auditoría externa.",
+        "La auditoría de verificación.",
+        "La auditoría de certificación."
+      ],
+      "correct_index": 1,
+      "meta": {
+        "original_question_number": 160,
+        "correct_letter": "B"
+      }
+    }
+  ]
+}
