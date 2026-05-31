@@ -29,5 +29,5 @@ This repository implements the standardized architecture of the organization:
 
 The application is fully deployed through GitHub Pages:
 
-🔗 **https://reichgp.github.io/quiz-casi-2/**
+🔗 **https://devquiz-hub.github.io/quiz-casi-2/**
 
